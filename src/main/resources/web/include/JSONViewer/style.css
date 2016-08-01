@@ -1,0 +1,16 @@
+div[json-editor] { height: 400px; }
+
+div[json-editor] .jsoneditor { border: 1px solid #555; }
+div[json-editor] .jsoneditor-menu { background-color: #555; border-bottom: 1px solid #555; }
+div[json-editor] div.jsoneditor-contextmenu ul li button { color: #ddd; }
+
+div[json-editor] div.jsoneditor-contextmenu ul li button.jsoneditor-selected,
+div[json-editor] div.jsoneditor-contextmenu ul li button.jsoneditor-selected:focus,
+div[json-editor] div.jsoneditor-contextmenu ul li button.jsoneditor-selected:hover,
+div[json-editor] div.jsoneditor-contextmenu ul li button:hover {
+    background-color: #68B749;
+}
+
+div[json-editor] div.jsoneditor-contextmenu ul li button div.jsoneditor-expand {
+    color: white;
+}

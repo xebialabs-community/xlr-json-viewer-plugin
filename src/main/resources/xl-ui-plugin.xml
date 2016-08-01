@@ -1,0 +1,11 @@
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.xebialabs.com/deployit/ui-plugin"
+        xsi:schemaLocation="http://www.xebialabs.com/deployit/ui-plugin xl-ui-plugin.xsd">
+
+    <menu-ref ref="xlrelease.ReleasePageMenu">
+        <menu-item label="JSON viewer" uri="include/JSONViewer/json-viewer.html" path-suffix="json" weight="100" />
+    </menu-ref>
+
+    <library name="angular-json-editor" />
+    <library name="ngclipboard" />
+</plugin>

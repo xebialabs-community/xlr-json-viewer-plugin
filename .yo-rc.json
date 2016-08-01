@@ -1,0 +1,11 @@
+{
+  "generator-xl-release-plugin": {
+    "pluginName": "xlr-json-viewer-plugin",
+    "kebabPluginName": "xlr-json-viewer-plugin",
+    "namespace": "json",
+    "xlrFeatures": [
+      "tiles",
+      "rest"
+    ]
+  }
+}

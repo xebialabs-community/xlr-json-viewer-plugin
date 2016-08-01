@@ -1,0 +1,14 @@
+<div data-ng-controller="json.jsonViewerController as vm">
+    <div release-header>
+        <span>
+            <button class="btn" ngclipboard data-clipboard-text="{{vm.release}}">
+                <img src="../../static/0.0.0/include/JSONViewer/img/clippy.svg" width="13"
+                     title="Copy to clipboard" alt="Copy to clipboard">
+            </button>
+            <button type="button" class="btn" ng-click="vm.refresh()">Refresh</button>
+        </span>
+    </div>
+    <div class="content-under-header">
+        <div json-editor model="vm.release" options="vm.jsonEditorOpts"></div>
+    </div>
+</div>
